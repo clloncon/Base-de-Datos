@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63B53FBD-AED1-7E7E-FECC-0D53C2814D69" name="curso">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:23:01 UTC</createdTime>
+<ownerDesignName>log-rel</ownerDesignName>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idCurso" id="27B24227-5AE6-608B-E50D-14C0860BBE23">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:23:06 UTC</createdTime>
+<ownerDesignName>log-rel</ownerDesignName>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreCurso" id="11827222-C359-519B-2A31-993B33E2DB9F">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:23:16 UTC</createdTime>
+<ownerDesignName>log-rel</ownerDesignName>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0027F710-C145-2143-130B-7BB775322FF5" name="curso PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:23:14 UTC</createdTime>
+<ownerDesignName>log-rel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>27B24227-5AE6-608B-E50D-14C0860BBE23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

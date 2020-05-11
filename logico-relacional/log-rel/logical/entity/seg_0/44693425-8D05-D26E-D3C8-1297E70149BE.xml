@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44693425-8D05-D26E-D3C8-1297E70149BE" name="alternativas">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:58:41 UTC</createdTime>
+<ownerDesignName>log-rel</ownerDesignName>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idAlternat" id="0BD39701-B5D0-51D2-F5F4-D73063B83C8C">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:58:52 UTC</createdTime>
+<ownerDesignName>log-rel</ownerDesignName>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="91DF3C12-C7B2-5048-5AA5-9A2F0B3F52A4">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:59:07 UTC</createdTime>
+<ownerDesignName>log-rel</ownerDesignName>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="1929C2A1-4C56-CA13-3F52-DA7F0278896D">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 18:00:11 UTC</createdTime>
+<ownerDesignName>log-rel</ownerDesignName>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="porcentaje" id="A7002799-887C-FF4C-DC96-5C6574B461D9">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 18:44:48 UTC</createdTime>
+<ownerDesignName>log-rel</ownerDesignName>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPregunta" id="F8E2C43B-0ED0-637B-8B00-681419CC0536">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:17:34 UTC</createdTime>
+<generatorID>07E3C5FE-BD61-BC1F-4A17-0B1712A77C51</generatorID>
+<ownerDesignName>log-rel</ownerDesignName>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="true"/>
+</engineerTo>
+<referedAttribute>134AC5EB-EFBE-A750-1785-767BBE786C76</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6DCF43CD-8F3A-41E9-6C1E-B3D9F89EC627" name="alternativa PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:59:05 UTC</createdTime>
+<ownerDesignName>log-rel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0BD39701-B5D0-51D2-F5F4-D73063B83C8C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

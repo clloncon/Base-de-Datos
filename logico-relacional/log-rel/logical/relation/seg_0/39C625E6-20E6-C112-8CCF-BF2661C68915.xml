@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="alter_alum" directorySegmentName="seg_0" id="39C625E6-20E6-C112-8CCF-BF2661C68915">
+<createdBy>tomas</createdBy>
+<createdTime>2020-03-13 02:35:16 UTC</createdTime>
+<ownerDesignName>log-rel</ownerDesignName>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="true"/>
+</engineerTo>
+<sourcePk>6DCF43CD-8F3A-41E9-6C1E-B3D9F89EC627</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>44693425-8D05-D26E-D3C8-1297E70149BE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2A3E88C1-A2A2-A812-B744-F321F9C35A07</targetEntity>
+<transferable>true</transferable>
+</Relation>

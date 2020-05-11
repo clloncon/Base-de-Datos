@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A3E88C1-A2A2-A812-B744-F321F9C35A07" name="alumAlternat">
+<createdBy>tomas</createdBy>
+<createdTime>2020-03-13 02:33:16 UTC</createdTime>
+<ownerDesignName>log-rel</ownerDesignName>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idAlumnAltern" id="5B8D375F-98F3-C9FC-366A-DB6CB3ABC746">
+<createdBy>tomas</createdBy>
+<createdTime>2020-03-13 02:33:47 UTC</createdTime>
+<ownerDesignName>log-rel</ownerDesignName>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAlumno" id="B3119597-A124-2CD4-8D57-BD74ECFD6B4E">
+<createdBy>tomas</createdBy>
+<createdTime>2020-03-13 02:34:50 UTC</createdTime>
+<generatorID>2D8C1739-DF91-E400-32F5-3817BFC50136</generatorID>
+<ownerDesignName>log-rel</ownerDesignName>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="true"/>
+</engineerTo>
+<referedAttribute>0E9DC9E5-1518-0FD3-92C5-B014975746E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAlternat" id="1A90D8B0-A224-CFAB-157B-6D237E4892D5">
+<createdBy>tomas</createdBy>
+<createdTime>2020-03-13 02:35:16 UTC</createdTime>
+<generatorID>39C625E6-20E6-C112-8CCF-BF2661C68915</generatorID>
+<ownerDesignName>log-rel</ownerDesignName>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="true"/>
+</engineerTo>
+<referedAttribute>0BD39701-B5D0-51D2-F5F4-D73063B83C8C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E7454D87-96B8-3DCD-B7C7-DDFB2ED5A1C1" name="alumAlternat PK">
+<createdBy>tomas</createdBy>
+<createdTime>2020-03-13 02:34:10 UTC</createdTime>
+<ownerDesignName>log-rel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5B8D375F-98F3-C9FC-366A-DB6CB3ABC746</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

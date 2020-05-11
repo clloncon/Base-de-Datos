@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="test-pregunta" directorySegmentName="seg_0" id="CEB4CDB4-C654-DEE6-C4AF-8F0B50A3C556">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 19:12:17 UTC</createdTime>
+<ownerDesignName>log-rel</ownerDesignName>
+<engineerTo>
+<item key="96D80C3B-E96A-D963-7F16-6138455398FA" value="true"/>
+</engineerTo>
+<sourcePk>BBD56BE6-5DF6-DEF5-5951-8121576199AB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>330A5F1A-FB31-7774-5C9C-E1ADE237DA2F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2A5CA0FD-96AB-EC16-BC9B-36BDCF40B239</targetEntity>
+<transferable>true</transferable>
+</Relation>
