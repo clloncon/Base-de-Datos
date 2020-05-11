@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Logico_relacional" id="A35646A3-E5CA-4C49-96CA-BC4D080D0DFB" version="3.5">
-<createdBy>Alumno</createdBy>
-<createdTime>2020-03-12 17:19:02 UTC</createdTime>
-<ownerDesignName>logico</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>A35646A3-E5CA-4C49-96CA-BC4D080D0DFB</designId>
-</OSDM_Design>
